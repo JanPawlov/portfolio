@@ -5,7 +5,7 @@ BluetoothTaskExecutor in conjunction with BluetoothService are classes that are 
 
 
 #### 2. anim/
-Animation shown in the video is the result of reverse engineering case. User can choose workout type by swipe/fling gestures. While he does it, background image alphas and circular icons sizes are changed accordingly. 
+Animation shown in the [video](https://github.com/JanPawlov/portfolio/blob/master/anim/anim.mp4) is the result of reverse engineering case. User can choose workout type by swipe/fling gestures. While he does it, background image alphas and circular icons sizes are changed accordingly. 
 The view is swappable, meaning it will scroll to the nearest workout when user releases his finger. Scroll events can be passed to the parent view (via ScrollObserver interface) to add another effects (in this instance, background image alphas). User can also swipe up for details. This results in a dialog with blurred background.
 
 #### 3. [Drones](https://github.com/JanPawlov/GameOfDronesApp "Game Of Drones")
